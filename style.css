@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.select{
+  border: none;
+}
+
+body {
+  background: #f7f7f7;
+  color: #222;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #001566;
+}
+
+.logo .sub {
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 4px;
+}
+
+.lang-offer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.offer {
+  color: #f45b25;
+  text-decoration: none;
+}
+
+.lang {
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.login-box {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin: 20px 0;
+  color: #001566;
+  font-size: 24px;
+}
+
+.role-switch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.role-switch button {
+  padding: 10px 20px;
+  border: none;
+  background: #f2f2f2;
+  cursor: pointer;
+  font-weight: bold;
+  color: #444;
+  width: 50%;
+}
+
+.role-switch .active {
+  background: #fff;
+  border: 2px solid #eee;
+  color: #000;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-box .toggle {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.qr-text {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0 20px;
+}
+
+.submit {
+  background: #f99a85;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.lang-offer a{
+  color: #f45b25;
+}
